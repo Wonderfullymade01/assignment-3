@@ -1,0 +1,21 @@
+# Version control and CI
+.git
+.gitignore
+.github
+
+# Logs and temporary/local files
+logs
+*.log
+*.tmp
+*.swp
+.vscode
+.DS_Store
+
+# Not needed inside the image
+README.md
+tests
+scripts
+grade.sh
+compose.yaml
+Dockerfile
+.dockerignore
