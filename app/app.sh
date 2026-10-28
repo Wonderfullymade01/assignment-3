@@ -165,7 +165,7 @@ main() {
             usage >&2
             return 2
             ;;
-    esc
+    esac
 }
 
 main "$@"
